@@ -1,7 +1,7 @@
 class UserEntity {
-  String id;
-  String email;
-  String name;
+  final String id;
+  final String email;
+  final String name;
   UserEntity({
     required this.id,
     required this.email,
